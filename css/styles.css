@@ -80,7 +80,7 @@ img {
   color: var(--brand-color);
 }
 
-.logo--dark {
+.header__logo {
   color: #000000;
 }
 
