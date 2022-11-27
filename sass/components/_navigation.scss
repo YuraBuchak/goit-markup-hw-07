@@ -31,6 +31,10 @@
   &:focus {
     color: var(--brand-color);
   }
+
+  &.navigation__link--current {
+    color: var(--brand-color);
+  }
 }
 
 .navigation__link--current::after {

@@ -1,3 +1,11 @@
+.work {
+  @include paddingSection(0px);
+}
+
+.work__title {
+  @extend %titleSection;
+}
+
 .work__list {
   display: flex;
   gap: 30px;
