@@ -29,3 +29,20 @@
   color: #ffffff;
   margin-bottom: 30px;
 }
+
+.hero__btn {
+  @include btn;
+  margin-left: auto;
+  margin-right: auto;
+
+  min-width: 216px;
+  min-height: 50px;
+  padding: 8px 30px;
+
+  transition: background-color var(--anima-tz);
+
+  &:hover,
+  &:focus {
+    background-color: rgb(6, 127, 240);
+  }
+}

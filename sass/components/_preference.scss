@@ -13,9 +13,7 @@
 }
 
 .preference__picture {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %flexCenter;
   height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;
